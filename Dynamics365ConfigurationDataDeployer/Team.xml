@@ -1,0 +1,16 @@
+<fetch no-lock="true" >
+  <entity name="team" >
+    <attribute name="teamid" />
+    <attribute name="name" />
+    <attribute name="yominame" />
+    <attribute name="businessunitid" />
+    <attribute name="teamtype" />
+    <attribute name="isdefault" />
+    <attribute name="emailaddress" />
+    <attribute name="administratorid" />
+    <attribute name="description" />    
+    <filter>
+      <condition attribute="systemmanaged" operator="eq" value="0" />
+    </filter>
+  </entity>
+</fetch>

@@ -1,0 +1,24 @@
+<fetch no-lock="true" >
+  <entity name="businessunit" >
+    <attribute name="businessunitid" />
+    <attribute name="name" />
+    <attribute name="parentbusinessunitid" />
+    <attribute name="description" />
+    <attribute name="address1_line1" />
+    <attribute name="address1_line2" />
+    <attribute name="address1_line3" />
+    <attribute name="address1_city" />
+    <attribute name="address1_country" />
+    <attribute name="address1_postalcode" />
+    <attribute name="address1_telephone1" />
+    <attribute name="address1_telephone2" />
+    <attribute name="address2_line1" />
+    <attribute name="address2_line2" />
+    <attribute name="address2_line3" />
+    <attribute name="address2_city" />
+    <attribute name="address2_country" />
+    <attribute name="address2_postalcode" />
+    <attribute name="address2_telephone1" />
+    <attribute name="address2_telephone2" />
+  </entity>
+</fetch>

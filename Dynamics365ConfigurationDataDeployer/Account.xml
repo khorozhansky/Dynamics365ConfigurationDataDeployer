@@ -1,0 +1,26 @@
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false" >
+  <entity name="account" >
+    <attribute name="accountid" />
+    <attribute name="name" />
+    <attribute name="primarycontactid" />
+    <attribute name="address1_city" />
+    <attribute name="telephone1" />
+    <attribute name="shippingmethodcode" />
+    <attribute name="openrevenue" />
+    <attribute name="opendeals" />
+    <attribute name="statuscode" />
+    <attribute name="statecode" />
+    <attribute name="ownerid" />
+    <attribute name="createdon" />
+    <attribute name="createdby" />
+    <attribute name="modifiedon" />
+    <attribute name="modifiedby" />
+    <order attribute="name" descending="false" />
+    <link-entity name="contact" from="contactid" to="primarycontactid" visible="false" link-type="outer" alias="accountprimarycontactidcontactcontactid" >
+      <attribute name="emailaddress1" />
+      <attribute name="customertypecode" />
+      <attribute name="ownerid" />
+      <attribute name="parentcustomerid" />
+    </link-entity>
+  </entity>
+</fetch>

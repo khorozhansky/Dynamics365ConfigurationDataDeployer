@@ -1,0 +1,10 @@
+<fetch no-lock="true" >
+  <entity name="transactioncurrency" >
+    <attribute name="currencysymbol" />
+    <attribute name="transactioncurrencyid" />
+    <attribute name="currencyprecision" />
+    <attribute name="isocurrencycode" />
+    <attribute name="exchangerate" />
+    <attribute name="currencyname" />
+  </entity>
+</fetch>

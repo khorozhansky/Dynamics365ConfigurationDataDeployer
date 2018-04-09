@@ -1,0 +1,28 @@
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false" >
+  <entity name="contact" >
+    <attribute name="firstname" />
+    <attribute name="lastname" />
+    <attribute name="parentcustomerid" />
+    <attribute name="telephone1" />
+    <attribute name="emailaddress1" />
+    <attribute name="contactid" />
+    <attribute name="statuscode" />
+    <attribute name="statecode" />
+    <attribute name="ownerid" />
+    <attribute name="numberofchildren" />
+    <attribute name="educationcode" />
+    <attribute name="creditonhold" />
+    <attribute name="birthdate" />
+    <attribute name="aging30" />
+    <attribute name="address1_line2" />
+    <attribute name="address1_line1" />
+    <attribute name="address1_stateorprovince" />
+    <attribute name="address1_latitude" />
+    <attribute name="address1_county" />
+    <attribute name="address1_country" />
+    <attribute name="address1_city" />
+    <attribute name="transactioncurrencyid" />
+    <attribute name="preferredcontactmethodcode" />
+    <order attribute="fullname" descending="false" />
+  </entity>
+</fetch>

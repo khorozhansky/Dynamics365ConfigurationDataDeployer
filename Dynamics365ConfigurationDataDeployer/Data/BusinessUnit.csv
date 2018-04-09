@@ -1,0 +1,12 @@
+businessunitid,name,parentbusinessunitid,parentbusinessunitid!name,parentbusinessunitid!type,description,isdisabled,address1_line1,address1_line2,address1_line3,address1_city,address1_country,address1_postalcode,address1_telephone1,address1_telephone2,address2_line1,address2_line2,address2_line3,address2_city,address2_country,address2_postalcode,address2_telephone1,address2_telephone2
+6d976d5d-8d09-e811-820e-08002703f176,Marketing,26baa607-b766-e511-80cc-080027111fb1,RootBu1,businessunit,,False,,,,,,,,,,,,,,,,
+4868a475-8d09-e811-820e-08002703f176,Sales,26baa607-b766-e511-80cc-080027111fb1,RootBu1,businessunit,,False,,,,,,,,,,,,,,,,
+9f07967d-8d09-e811-820e-08002703f176,Service,26baa607-b766-e511-80cc-080027111fb1,RootBu1,businessunit,,False,,,,,,,,,,,,,,,,
+9ddc90b3-8d09-e811-820e-08002703f176,Marketing - Western Europe,6d976d5d-8d09-e811-820e-08002703f176,Marketing,businessunit,,False,,,,,,,,,,,,,,,,
+bde224f4-8d09-e811-820e-08002703f176,Marketing - Eastern Europe,6d976d5d-8d09-e811-820e-08002703f176,Marketing,businessunit,,False,,,,,,,,,,,,,,,,
+d8ea6beb-610e-e811-8228-08002703f176,A-Sales Area,4868a475-8d09-e811-820e-08002703f176,Sales,businessunit,,False,str1,str2,,city1,Canada,z,21312312,3.33E+16,,str 2 - 2,,c2,Mexico,z2,,
+dcea6beb-610e-e811-8228-08002703f176,B-Sales Area,4868a475-8d09-e811-820e-08002703f176,Sales,businessunit,,True,,,,,,,,,,,,,,,,
+8eefd002-620e-e811-8228-08002703f176,Special Unit 1,dcea6beb-610e-e811-8228-08002703f176,B-Sales Area,businessunit,,False,,,,,,,,,,,,,,,,
+92efd002-620e-e811-8228-08002703f176,Special Unit 2,dcea6beb-610e-e811-8228-08002703f176,B-Sales Area,businessunit,,False,,,,,,,,,,,,,,,,
+6d6e1b0d-620e-e811-8228-08002703f176,Special Unit 3,d8ea6beb-610e-e811-8228-08002703f176,A-Sales Area,businessunit,,True,,,,,,,,,,,,,,,,
+26baa607-b766-e511-80cc-080027111fb1,RootBu1,,,,,False,,,,,,,,,,,,,,,,

@@ -1,0 +1,5 @@
+"currencysymbol","transactioncurrencyid","currencyprecision","isocurrencycode","exchangerate","currencyname"
+"$","5ce724f7-7b0e-e811-8228-08002703f176","3","CAD","1.1000000000","Canadian Dollar"
+"?","fc0db40f-7c0e-e811-8228-08002703f176","2","EUR","0.8000000000","Euro"
+"@","9df5c229-7c0e-e811-8228-08002703f176","0","QQQ","110.0000000000","QQQ-cur"
+"$","03417366-b766-e511-80cc-080027111fb1","2","USD","1.0000000000","US Dollar"
